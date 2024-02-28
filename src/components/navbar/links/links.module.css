@@ -1,0 +1,16 @@
+.linksContainer{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoutBtn{
+    background: var(--text);
+    color: var(--bgSoft);
+    font-weight: bold;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
