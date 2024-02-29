@@ -1,0 +1,60 @@
+.homeContainer {
+  display: flex;
+  gap: 100px;
+}
+
+.mainHeading {
+  font-size: 96px;
+}
+
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.imageContainer {
+  position: relative;
+  flex: 1;
+}
+
+.buttonsContainer {
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 15px 24px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: black;
+  border-radius: 7px;
+}
+
+.button:first-child {
+  margin-right: 14px;
+  background-color: var(--btn);
+  color: white;
+}
+
+.paragraph {
+  font-size: 20px;
+}
+
+.brands {
+  width: 500px;
+  height: 50px;
+  position: relative;
+  filter: grayscale(1);
+  margin-top: 12px;
+}
+
+@media (max-width: 768px) {
+  .homeContainer {
+    flex-direction: column;
+  }
+  .mainHeading {
+    font-size: 64px;
+  }
+}

@@ -6,7 +6,9 @@ import styles from "./navbar.module.css";
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
-      <Link href="/" className={styles.companyLogo}>Lama</Link>
+      <Link href="/" className={styles.companyLogo}>
+        Lama
+      </Link>
       <Links />
     </nav>
   );

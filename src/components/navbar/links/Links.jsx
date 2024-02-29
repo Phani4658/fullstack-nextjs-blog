@@ -49,7 +49,7 @@ const Links = () => {
         className={styles.menuIcon}
         onClick={() => setOpen((prev) => !prev)}
       >
-        <Image src="/public/menu.png" alt="menu icon" width={48} height={75} />
+        <Image src="/menu.png" alt="menu icon" width={24} height={24} />
       </button>
       {open && (
         <ul className={styles.mobileLinks}>
