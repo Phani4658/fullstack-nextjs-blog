@@ -1,0 +1,46 @@
+.homeContainer {
+    display: flex;
+    gap: 100px;
+  }
+
+
+  .formContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+  
+  
+
+.imageContainer {
+  position: relative;
+  flex: 1;
+  width: 50%;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contactForm input,.contactForm textarea{
+    padding:15px 10px;
+    border-radius: 5px;
+    background-color: var(--bgSoft);
+    color: var(--text);
+    border: none;
+    border-radius: 6px;
+}
+
+.sendButton{
+    background-color: var(--btn);
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+

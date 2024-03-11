@@ -1,0 +1,53 @@
+.homeContainer {
+  display: flex;
+  gap: 100px;
+}
+
+.mainHeading {
+  font-size: 54px;
+}
+
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  width: 70%;
+}
+
+.imageContainer {
+  position: relative;
+  flex: 1;
+}
+
+.paragraph {
+  font-size: 20px;
+}
+
+.textContainer h2 {
+  color: var(--btn);
+}
+
+.statsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.statsCard h3 {
+  color: var(--btn);
+  font-size: 28px;
+}
+
+.statsCard p {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .homeContainer {
+    flex-direction: column;
+  }
+  .mainHeading {
+    font-size: 64px;
+  }
+}

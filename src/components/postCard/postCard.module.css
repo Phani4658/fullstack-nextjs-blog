@@ -1,0 +1,39 @@
+.imgContainer {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.topSection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.topSection span {
+  writing-mode: vertical-lr;
+}
+
+.bottomSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.desc {
+  color: gray;
+}
+
+.link {
+    font-size: 16px;
+  text-decoration: underline;
+}
